@@ -1,0 +1,53 @@
+#banner {
+  margin-top: 136px;
+  padding: 100px 0 138px 0;
+  overflow-x: hidden;
+
+  .container {
+    display: flex;
+
+    .texts {
+      width: 50%;
+
+      h1 {
+        line-height: 110%;
+        font-size: 5vw;
+        color: $veryDarkViolet;
+      }
+
+      p {
+        font-size: 1.53vw;
+        margin: 22px 0 40px 0;
+        color: $grayishViolet;
+      }
+
+      button {
+        width: 197px;
+        height: 56px;
+        color: #fff;
+        background-color: $cyan;
+        border-radius: 35px;
+        border: transparent;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 1.8rem;
+
+        &:hover {
+          background-color: $cyanHover;
+        }
+      }
+    }
+
+    .image {
+      width: 50%;
+      position: relative;
+
+      img {
+        width: 50.9vw;
+        position: absolute;
+        top: -5vw;
+        left: 5vw;
+      }
+    }
+  }
+}
